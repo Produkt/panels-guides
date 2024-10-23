@@ -11,15 +11,15 @@ The first thing you need to get started using Panels is content to read.
 
 ## Importing content into Panels
 
-There are several ways to import your content into Panels, as well as keep it shared & synced between devices.
+There are several ways to import your content into Panels and to keep it shared and synced across devices.
 
-Head over to [Importing content](/category/importing-content) to know more.
+You can head to [Importing content](/category/importing-content) to learn more.
 
 ## Syncing and organizing your content
 
 Once your content is inside Panels, we offer tools to organize it and customize how the library looks.
 
-Find some more information in [Organize content](/category/organizing-content).
+Find more information in [Organize content](/category/organizing-content).
 
 ## Read your content
 
@@ -27,4 +27,4 @@ In addition to a powerful library, Panels offers an incredible reader with multi
 
 ## Purchasing content
 
-Panels does not provide any content, all content should be purchased elsewhere. Visit [where to purchase comics](/misc/where-to-purchase.md) for suggestions.
+Panels do not provide any content, all content should be purchased elsewhere. Visit [where to purchase comics](/misc/where-to-purchase.md) for suggestions.
