@@ -1,6 +1,6 @@
 # Where to purchase comics
 
-We do recommend the following sites to purchase DRM-free comics that you can download and import to Panels.
+We recommend the following sites to purchase DRM-free comics that you can download and import into Panels.
 
 - [Humble bundle](https://www.humblebundle.com/books?partner=panels)
 - [Panelsyndicate](http://panelsyndicate.com/)
@@ -12,7 +12,7 @@ We do recommend the following sites to purchase DRM-free comics that you can dow
 - [Blue Fox Comics](https://bluefoxcomics.com/collections/digital)
 - [eManga](https://emanga.com)
 
-In addition, the following sites offer **free**, creative commons or public domain comics:
+In addition, the following sites offer **free**, creative commons, or public domain comics:
 
 - [Pepper&Carrot](https://www.peppercarrot.com/)
 - [Overwatch Media](https://overwatch.blizzard.com/en-us/media/stories/)
@@ -21,3 +21,6 @@ In addition, the following sites offer **free**, creative commons or public doma
 - [NASA - First Woman](https://www.nasa.gov/calliefirst/)
 - [Comic Books - Comic Book Plus](https://comicbookplus.com/?cid=1507)
 - [Digital Comic Museum](https://digitalcomicmuseum.com)
+
+
+Do you know any other site where you can purchase/legally download comics? Feel free to edit this page to add them, or let us know at support@panels.app
