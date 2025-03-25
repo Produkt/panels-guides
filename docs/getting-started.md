@@ -1,7 +1,14 @@
 ---
 slug: /
 sidebar_position: 1
+hide_table_of_contents: true
 ---
+
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+<div style={{ marginBottom: '2rem', display: 'flex', justifyContent: 'center' }}>
+  <img src={useBaseUrl('/img/hero.png')} alt="Panels App Hero" style={{ width: '60%', height: 'auto', borderRadius: '8px' }}/>
+</div>
 
 # Getting started
 

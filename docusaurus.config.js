@@ -64,13 +64,13 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
+        logo: {
+          alt: 'Panels Logo',
+          src: 'img/Panels-light.png',
+          srcDark: 'img/Panels-dark.png',
+          height: 32,
+        },
         items: [
-          {
-            type: "docSidebar",
-            sidebarId: "tutorialSidebar",
-            position: "left",
-            label: "Guides",
-          },
           {
             href: "https://github.com/Produkt/panels-guides",
             label: "GitHub",
