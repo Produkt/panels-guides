@@ -16,6 +16,14 @@ To enable Panels View, follow these steps:
 2. Navigate to Panels Labs.
 3. Toggle on "Panels View Reader".
 
+For iPhone:
+<img src="/img/iphone-labs.png" alt="iPhone showing settings with Panels Labs" style={{width: 400}} />
+<img src="/img/iphone-labs2.png" alt="iPhone showing settings with Panels Labs" style={{width: 400}} />
+
+For iPad, Panels settings are located on your avatar:
+<img src="/img/ipad-labs.png" alt="iPhone showing settings with Panels Labs" style={{width: 400}} />
+
+
 Once enabled, you will see a new option while reading that allows you to toggle panel-by-panel navigation on or off.
 
 <img src="/img/panels-view.jpeg" alt="iPhone showing list of presets" style={{width: 400}} />
