@@ -17,7 +17,7 @@ To add a new OPDS feed, open Panels and go to Library -> Connect Service -> OPDS
 You'll be taken to the OPDS configuration screen. 
 Kavita offers an authorized URL, so you don't have to add any username or password. 
 
-To get the feed URL, go to your server Settings section, then open the "3td-Party Clients" and copy the OPDS URL.
+To get the feed URL, go to your server Settings section, then open the "3rd-Party Clients" and copy the OPDS URL.
 <img src ="/img/kavita-setup/04.png" style={{maxHeight: '500px'}}/>
 <img src ="/img/kavita-setup/05.png" style={{maxHeight: '500px'}}/>
 
