@@ -1,3 +1,7 @@
+---
+sidebar_position: 6
+---
+
 # Where to purchase comics
 
 We recommend the following sites to purchase DRM-free comics that you can download and import into Panels.

@@ -1,3 +1,7 @@
+---
+sidebar_position: 5
+---
+
 # Syncing reading sessions
 
 Panels keeps track of your progress for each individual file, as well as time spent reading, and many other things like default reading preset for each comic file.
