@@ -139,7 +139,20 @@ const config = {
 
         //... other Algolia params
       },
+      imageZoom: {
+        // CSS selector to apply the plugin to, defaults to '.markdown img'
+        selector: '.markdown img',
+        // Optional medium-zoom options
+        // see: https://www.npmjs.com/package/medium-zoom#options
+        options: {
+          margin: 24,          
+          scrollOffset: 0,          
+        },
+      },
     }),
+  plugins: [
+    'plugin-image-zoom'
+  ],
 };
 
 export default config;
