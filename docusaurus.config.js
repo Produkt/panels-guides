@@ -18,12 +18,7 @@ const config = {
   // For GitHub pages deployment, it is often '/<projectName>/'. For custom domains leave it as /
   baseUrl: "/",
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: "Produkt", // Usually your GitHub org/user name.
-  projectName: "panels-guides", // Usually your repo name.
   trailingSlash: false,
-  deploymentBranch: "gh-pages",
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
