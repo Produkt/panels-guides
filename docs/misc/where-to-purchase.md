@@ -4,7 +4,7 @@ sidebar_position: 6
 
 # Where to purchase comics
 
-Our first recommendation is of course our own store. [Panels Store](https://panels.store) is the best way to support creators directly. Purchases are fully integrated in our apps, so your purchased content will automatically appear in the app.
+Check out [Panels Store](https://panels.store) — our curated marketplace where your purchases support creators directly. Everything you buy syncs automatically to your library.
 
 [![](/img/store-banner.png)](https://panels.store)
 
