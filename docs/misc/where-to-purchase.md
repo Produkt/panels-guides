@@ -4,7 +4,7 @@ sidebar_position: 6
 
 # Where to purchase comics
 
-Check out [Panels Store](https://panels.store) — our curated marketplace where your purchases support creators directly. Everything you buy syncs automatically to your library.
+Check out [Panels Store](https://panels.store) — our curated marketplace where your purchases support creators directly. Everything you buy is instantly accessible from your app.
 
 [![](/img/store-banner.png)](https://panels.store)
 
