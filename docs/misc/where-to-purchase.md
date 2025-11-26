@@ -4,7 +4,11 @@ sidebar_position: 6
 
 # Where to purchase comics
 
-We recommend the following sites to purchase DRM-free comics that you can download and import into Panels.
+Check out [Panels Store](https://panels.store) — our curated marketplace where your purchases support creators directly. Everything you buy is instantly accessible from your app.
+
+[![](/img/store-banner.png)](https://panels.store)
+
+In addtion, we recommend the following sites to purchase DRM-free comics that you can download and import into Panels.
 
 - [Humble bundle](https://www.humblebundle.com/books?partner=panels)
 - [Panelsyndicate](http://panelsyndicate.com/)
