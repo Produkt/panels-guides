@@ -33,3 +33,7 @@ yourdomain.com {
 ```
 
 ℹ️ Guide based on the one written by [Komga](https://komga.org/docs/installation/https).
+
+## Tailscale
+
+If you use [Tailscale](https://tailscale.com/) to access your server remotely, you can enable HTTPS using Tailscale's built-in certificate provisioning. See their guide: [Enabling HTTPS](https://tailscale.com/kb/1153/enabling-https).
