@@ -16,6 +16,17 @@ To add a new OPDS feed, open Panels and go to Library -> Connect Service -> OPDS
 
 You'll be taken to the OPDS configuration screen. Give any name to your server, then enter your _server address_, _username_, and _password_. Tap on _Apply_. 
 
+On your local network, the address is your server's IP and the port Komga listens on:
+
+| Field | Value |
+| --- | --- |
+| Server address | `http://192.168.1.10` |
+| Port | `25600` |
+
+Panels finds Komga's OPDS feed on its own, so you don't need to add `/opds/v1.2/catalog` to the address (it does no harm if you do).
+
+If you reach Komga from outside your home through a reverse proxy, Tailscale or a domain name, the fields are filled in differently: see [Expose your server](/opds/https.md).
+
 <img src ="/img/komga-setup/02.png" style={{maxHeight: '800px'}}/>
 
 Your Komga server should now appear both as a new library and as a new Import Service. Let's explore both options.
