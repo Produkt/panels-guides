@@ -6,6 +6,12 @@ sidebar_position: 3
 
 Panels have support with external services to make it easier to import content into the app.
 
+:::info[Premium feature]
+
+Dropbox, OneDrive, SMB, and OPDS are part of [Panels Premium](/premium/what-is-panels-premium.md). Importing from the Files app is free.
+
+:::
+
 Most of those services work the same way and are accessible from the library content screen -> top right "..." button -> connect service option.
 
 <img src="/img/content-browser-options.jpeg" alt="iPhone showing content browser options" style={{width: 400}} />

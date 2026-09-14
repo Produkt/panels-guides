@@ -33,6 +33,10 @@ Find more information in [Organize content](/category/organizing-content).
 
 In addition to a powerful library, Panels offers an incredible reader with multiple features, from text selection to automatic background color. Visit [Reading content](/category/reading-content) to know more.
 
+## Panels Premium
+
+Panels is free to use, and Panels Premium unlocks advanced features like cloud libraries, OPDS servers, and page filters. Visit [Panels Premium](/category/panels-premium) to see what's included and how purchases work.
+
 ## Purchasing content
 
 Panels do not provide any content, all content should be purchased elsewhere. Visit [where to purchase comics](/misc/where-to-purchase.md) for suggestions.

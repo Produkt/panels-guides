@@ -4,6 +4,12 @@ sidebar_position: 5
 
 # Enabling Panels View
 
+:::info[Premium feature]
+
+Panels View is part of [Panels Premium](/premium/what-is-panels-premium.md).
+
+:::
+
 **Panels View** is a navigation system that allows you to explore comics panel by panel. Leveraging advanced machine learning models trained on hundreds of comic pages, this feature detects and zooms into individual panels, enhancing your reading experience — especially on smaller screens.
 
 :::info

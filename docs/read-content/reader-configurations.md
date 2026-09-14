@@ -18,6 +18,12 @@ We provide 5 default presets:
 - Adjust to orientation
 - Page curl
 
+:::info[Premium feature]
+
+The Fill screen, Adjust to orientation, and Page curl reading modes are part of [Panels Premium](/premium/what-is-panels-premium.md).
+
+:::
+
 You can edit, rename and delete any of those configurations. Just go to reader settings -> Presets.
 
 <img src="/img/reader-default-configurations.png" alt="iPhone showing list of presets" style={{width: 400}} />

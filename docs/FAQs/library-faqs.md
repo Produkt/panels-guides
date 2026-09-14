@@ -14,4 +14,4 @@ The 2 main ways to have your content synced between devices are iCloud Drive and
 
 ### Does content lock just lock everything or is there a way to lock only some folders?
 
-You can long press on a single comic or folder and just lock that content. It will appear blurred and will require a password to open. Also, the folder/file locked in Panels is hidden from the file system. Just in case you lock something and then you can't find it through Files.app. It's there, but not visible.
+Locking content is part of [Panels Premium](/premium/what-is-panels-premium.md). You can long press on a single comic or folder and just lock that content. It will appear blurred and will require a password to open. Also, the folder/file locked in Panels is hidden from the file system. Just in case you lock something and then you can't find it through Files.app. It's there, but not visible.
