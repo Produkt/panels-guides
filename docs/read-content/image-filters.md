@@ -1,5 +1,11 @@
 # Image filters
 
+:::info[Premium feature]
+
+Image filters are part of [Panels Premium](/premium/what-is-panels-premium.md).
+
+:::
+
 Panels offers a way to tweak images in the reader for better reading experience. We like to differentiate between 3 groups: filters, transformations and shaders.
 
 To access turn them on/off, simply tap "..." -> Image filters.

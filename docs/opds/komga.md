@@ -6,6 +6,12 @@ sidebar_position: 2
 
 This guide will walk you through the process of connecting Panels to your [Komga](https://komga.org/) instance.
 
+:::info[Premium feature]
+
+Connecting to OPDS servers like Komga is part of [Panels Premium](/premium/what-is-panels-premium.md).
+
+:::
+
 ## Adding your Komga server to Panels
 
 An OPDS feed is added to Panels as an importing service. From that point, it can be used either as a new library or just to download titles to your own device library.

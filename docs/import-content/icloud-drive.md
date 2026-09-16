@@ -4,6 +4,12 @@ sidebar_position: 4
 
 # Synced content via iCloud Drive
 
+:::info[Premium feature]
+
+iCloud Drive libraries are part of [Panels Premium](/premium/what-is-panels-premium.md).
+
+:::
+
 In addition to [syncing your reading sessions](../misc/sync-reading-sessions.md), Panels can keep your content synced between devices. Panels has support for [multiple libraries](../organize-content/multiple-libraries.md) in addition to having the current device library.
 
 The trick to having your content synced via iCloud Drive is to choose a root library folder stored anywhere in iCloud Drive.

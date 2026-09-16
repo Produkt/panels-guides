@@ -151,7 +151,15 @@ const config = {
       },
     }),
   plugins: [
-    'plugin-image-zoom'
+    'plugin-image-zoom',
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        redirects: [
+          { from: '/FAQs/premium-faqs', to: '/premium/premium-faqs' },
+        ],
+      },
+    ],
   ],
 };
 

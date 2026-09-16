@@ -6,6 +6,12 @@ sidebar_position: 4
 
 This guide will walk you through the process of connecting Panels to your [Calibre](https://calibre-ebook.com/) instance.
 
+:::info[Premium feature]
+
+Connecting to OPDS servers like Calibre is part of [Panels Premium](/premium/what-is-panels-premium.md).
+
+:::
+
 ## 📝 Step-by-Step Guide
 
 ### 1. **Open Calibre**

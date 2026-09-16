@@ -12,6 +12,12 @@ If you have comics stored in your Mac you have a few options.
 
 ### Web server
 
+:::info[Premium feature]
+
+The web server is part of [Panels Premium](/premium/what-is-panels-premium.md). AirDrop, cable, and Files app imports are free.
+
+:::
+
 Web Server option will start a server from your iOS device. Once the server is started, you can access that URL from your computer (as long as both devices are on the same wifi), and drop files there to send them to your iOS device.
 
 To start a session, go to Library -> back to content, then tap Web Server. After tapping "start server" a URL will be displayed. Use that URL on your mac browser.

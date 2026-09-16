@@ -4,6 +4,12 @@ sidebar_position: 1
 
 # What is OPDS
 
+:::info[Premium feature]
+
+Connecting to OPDS servers is part of [Panels Premium](/premium/what-is-panels-premium.md).
+
+:::
+
 [OPDS](https://opds.io) is a standard for content distribution. Most popular comic servers have adopted OPDS to allow third-party apps to access their content. 
 
 If you have a large comic collection or you just don't want your files to take out too much space in your device, you can choose to [have your content stored on iCloud Drive](/import-content/icloud-drive.md) or have it stored in your own server.

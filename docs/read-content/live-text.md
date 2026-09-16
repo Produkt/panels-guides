@@ -4,6 +4,12 @@ sidebar_position: 2
 
 # Live text
 
+:::info[Premium feature]
+
+Live text (text and subject detection) is part of [Panels Premium](/premium/what-is-panels-premium.md).
+
+:::
+
 Panels have support for detecting text & subject as well as selecting them.
 
 To enable it, go to reader settings -> live text -> Enable Live Text.

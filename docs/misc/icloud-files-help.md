@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # iCloud Drive: Keeping Files Downloaded on iOS
 
-If you use iCloud Drive as a cloud library in Panels, your comics might be deleted by the system without warning. This happens when iOS automatically removes files from your device to free up storage space, even though the files remain safely stored in iCloud. When you try to open a comic that has been offloaded, you'll see an error message saying the file is not available.
+If you use iCloud Drive as a cloud library in Panels (a [Panels Premium](/premium/what-is-panels-premium.md) feature), your comics might be deleted by the system without warning. This happens when iOS automatically removes files from your device to free up storage space, even though the files remain safely stored in iCloud. When you try to open a comic that has been offloaded, you'll see an error message saying the file is not available.
 
 This guide explains why this happens and how to prevent it by marking your important comics to stay downloaded on your device.
 
