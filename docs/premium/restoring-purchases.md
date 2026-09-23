@@ -10,7 +10,7 @@ Your Premium purchase belongs to your **Apple Account**, not to a single device.
 ## How to restore
 
 1. Make sure the device is signed in to the **same Apple Account** you used to buy Premium.
-2. In Panels, open **Settings** and tap the **Panels Premium** section.
+2. In Panels, open **Settings** and tap the **My Purchases** section.
 3. On the purchase screen, tap **Restore purchases**.
 
 Panels checks your purchases with Apple and unlocks Premium.
