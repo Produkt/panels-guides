@@ -1,8 +1,9 @@
 ---
-sidebar_position: 5
+sidebar_position: 4
+description: Why the Google Drive importer was removed from Panels, and how to import your Drive comics using the official Google Drive app and the Files app instead.
 ---
 
-# Google Drive Integration Retirement
+# Google Drive integration retirement
 
 Google is forcing us to remove our Google Drive importer, and there isn't much we can do about it. 
 
@@ -33,7 +34,7 @@ You can continue using your linked account, but we will remove the button to add
 
 Soon, we won't be able to access your files using our own integration, so you're going to have to use [Google Drive](https://apps.apple.com/us/app/google-drive/id507874739)  official app to access your files. Install it from the AppStore and make sure Google Drive is enabled in your Files.app Locations.
 
-You can use the "Import from Files" importer. The experience is a bit worse because it blocks the UI until the files are downloaded, but it works. 
+You can then use the ["Import from Files" importer](from-your-device.md#files-app). The experience is a bit worse because it blocks the UI until the files are downloaded, but it works. 
 
 
 | ![](/img/google-drive-retirement-1.png) | ![](/img/google-drive-retirement-2.jpeg)  |  ![](/img/google-drive-retirement-3.jpeg) |
@@ -44,7 +45,7 @@ You can use the "Import from Files" importer. The experience is a bit worse beca
 
 
 
-Additionally, you can simply download the files using the Google Drive app and copy them into the folder  "Ony my iPhone/iPad > Panels"  or inside your iCloud Drive library, and they will appear when you go back to Panels. 
+Additionally, you can simply download the files using the Google Drive app and copy them into the folder "On my iPhone/iPad > Panels", or inside your [iCloud Drive library](/libraries/icloud-drive.md), and they will appear when you go back to Panels. 
 
 
 ### Future

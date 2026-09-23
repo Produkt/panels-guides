@@ -1,0 +1,9 @@
+{
+  "label": "Help",
+  "position": 7,
+  "link": {
+    "type": "generated-index",
+    "slug": "/category/help",
+    "description": "App settings, troubleshooting, and how to reach us."
+  }
+}

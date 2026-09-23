@@ -1,9 +1,9 @@
 ---
-sidebar_position: 6
+sidebar_position: 8
 description: Find the best places to buy DRM-free digital comics compatible with Panels — including Panels Store, Humble Bundle, DriveThruComics, and more.
 ---
 
-# Where to Buy Digital Comics
+# Where to buy digital comics
 
 Looking for great digital comics to read in Panels? Here are the best places to purchase or download DRM-free comics you can import directly into the app.
 
@@ -50,4 +50,4 @@ These sites offer free, Creative Commons, or public domain comics you can legall
 
 ## Know a Site We're Missing?
 
-Got a favorite DRM-free comic store that should be on this list? [Edit this page on GitHub](https://github.com/nickvdyck/panels-guides) or drop us a line at support@panels.app — we'd love to add it.
+Got a favorite DRM-free comic store that should be on this list? [Edit this page on GitHub](https://github.com/Produkt/panels-guides) or drop us a line at support@panels.app — we'd love to add it.

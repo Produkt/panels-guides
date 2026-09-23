@@ -1,10 +1,11 @@
 ---
-sidebar_position: 3
+sidebar_position: 4
+description: Connect Panels to your Kavita server over OPDS using Kavita's authorized feed URL, which needs no username or password.
 ---
 
 # Kavita
 
-This guide will walk you through the process of connecting Panels to your [Kavita](https://www.kavitareader.com/) instance.
+This guide covers what's specific to connecting Panels to a [Kavita](https://www.kavitareader.com/) instance. For the parts common to every server — where the OPDS option lives, and how to use the server once it's added — see [connecting a server](connecting-a-server.md).
 
 :::info[Premium feature]
 
@@ -12,56 +13,37 @@ Connecting to OPDS servers like Kavita is part of [Panels Premium](/premium/what
 
 :::
 
-## Adding your Kavita server to Panels
+## Finding your feed URL
 
-An OPDS feed is added to Panels as an importing service. From that point, it can be used either as a new library or just to download titles to your own device library.
+Kavita hands out an **authorized URL**, which has your credentials baked into it. That's why you won't need a username or password in Panels.
 
-To add a new OPDS feed, open Panels and go to Library -> Connect Service -> OPDS.
+In Kavita, go to **Settings → 3rd-Party Clients** and copy the OPDS URL.
 
-<img src ="/img/kavita-setup/01.png" style={{maxHeight: '800px'}}/>
+<img src ="/img/kavita-setup/04.png" style={{maxHeight: '500px'}} alt="Kavita settings showing the 3rd-Party Clients section"/>
+<img src ="/img/kavita-setup/05.png" style={{maxHeight: '500px'}} alt="Kavita showing the OPDS URL to copy"/>
 
-You'll be taken to the OPDS configuration screen. 
-Kavita offers an authorized URL, so you don't have to add any username or password. 
+## Connection details
 
-To get the feed URL, go to your server Settings section, then open the "3rd-Party Clients" and copy the OPDS URL.
-<img src ="/img/kavita-setup/04.png" style={{maxHeight: '500px'}}/>
-<img src ="/img/kavita-setup/05.png" style={{maxHeight: '500px'}}/>
+In Panels, go to **Library → Connect Service → OPDS** and paste that URL into the **Host** field.
 
-Paste that URL in the "Host" field on Panels and save the configuration.
+| Field | Value |
+| --- | --- |
+| Host | the OPDS URL you copied from Kavita |
+| Port | only if your server isn't on port 80 or 8080 |
+| Username / Password | **leave empty** |
 
-Specify the "Port" if your server is not using port 80 or 8080.
+:::warning
 
-⚠️ And leave username and password **empty**.
+Leave username and password **empty**. The authorized URL already carries your credentials — filling these in will stop the connection working.
 
-<img src ="/img/kavita-setup/02.png" style={{maxHeight: '800px'}}/>
+:::
 
-Your Kavita server should now appear both as a new library and as a new Import Service. Let's explore both options.
+<img src ="/img/kavita-setup/02.png" style={{maxHeight: '800px'}} alt="Panels OPDS configuration screen for Kavita"/>
 
-<img src ="/img/kavita-setup/03.png" style={{maxHeight: '800px'}}/>
+Save the configuration.
 
+## Next steps
 
-## Kavita as Import Service
+Your Kavita server now appears both as a library and as an import service.
 
-You can use this method if you plan to use your Kavita server mainly to import (download) comics into your device. 
-
-To add content to your library, you can follow either of these 2 flows:
-
-1. From he content screen, tap your server, navigate and select the files you want to import, and last select where yo place them in your device library.
-
-<img src ="/img/kavita-setup/06.png"/>
-
-2. Navigate first to the location in your device library where you want your files to be imported. Then tap the 3 dot symbol and select "Import Files". Choose your server and find the files you want to download to your phone.
-
-<img src ="/img/kavita-setup/07.png"/>
-
-From either of the above flows above, your download should start and be visible from the "Downloads" tab.
-
-<img src ="/img/kavita-setup/08.png" style={{maxHeight: '800px'}}/>
-
-
-## Kavita as a Library
-
-Panels treats OPDS feeds as libraries. That means you can navigate your server library as if it was on your own device, with the benefit of keeping all files stored somewhere else.
-Once you find a title you want to read, you can tap to open and start reading it (stream) or you can choose to download it for offline use. Long press a title (or select many) to show all options.
-
-<img src ="/img/kavita-setup/09.png"/>
+→ [Using your server](connecting-a-server.md#using-it-as-a-library)

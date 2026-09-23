@@ -23,6 +23,8 @@ There are two ways to get Premium.
 
 When a new major version (Panels 4) is released, you keep everything you have. New features introduced in Panels 4 will need a new purchase, and owners of the previous version get a discount.
 
+We don't work to a fixed release schedule, but Panels 4 will most likely arrive sometime in **2026**. Since previous-version owners always get a discount, buying now doesn't cost you anything when it does.
+
 :::tip Already bought Panels 2?
 
 Your Panels 2 purchase is still valid and keeps its features. To get the features added in Panels 3, you can upgrade at a discounted price.
@@ -35,31 +37,31 @@ Your Panels 2 purchase is still valid and keeps its features. To get the feature
 | --- | :---: | :---: |
 | **Reading** | | |
 | Default, double page, and vertical scroll reading modes | ✅ | ✅ |
-| Continue reading to the next title | ✅ | ✅ |
+| [Continue reading](../read-content/continue-reading.md) to the next title | ✅ | ✅ |
 | Table of contents | ✅ | ✅ |
 | Comic ePUB | ✅ | ✅ |
-| Fit to screen, fill screen, and page curl reading modes | | ✅ |
+| [Fit to screen, fill screen, and page curl](../read-content/reader-configurations.md) reading modes | | ✅ |
 | [Panel by panel navigation](../read-content/panels-view.md) | | ✅ |
 | Dynamic background color | | ✅ |
 | [Incognito mode](../read-content/incognito-mode.md) | | ✅ |
 | [Text and subject detection](../read-content/live-text.md) | | ✅ |
 | [Page filters](../read-content/image-filters.md) | | ✅ |
 | **Importing** | | |
-| [Files app](../import-content/files-app.md), USB (Finder), AirDrop, and drag and drop | ✅ | ✅ |
-| [Dropbox, OneDrive, and SMB](../import-content/import-services.md) | | ✅ |
-| Web server | | ✅ |
+| [Files app](../import-content/from-your-device.md), USB (Finder), AirDrop, and drag and drop | ✅ | ✅ |
+| [Dropbox, OneDrive, and SMB](../import-content/cloud-services.md) | | ✅ |
+| [Web server](../import-content/from-your-device.md#web-server) | | ✅ |
 | **Libraries** | | |
 | Local library and custom folder library | ✅ | ✅ |
 | Substack library | ✅ | ✅ |
 | Panels Store purchases | ✅ | ✅ |
 | Search your library | ✅ | ✅ |
-| [Cloud library](../import-content/icloud-drive.md) (iCloud Drive, external drives) | | ✅ |
+| [Cloud library](../libraries/icloud-drive.md) (iCloud Drive, external drives) | | ✅ |
 | [OPDS libraries and streaming](../opds/opds.md) (Komga, Kavita, Calibre…) | | ✅ |
-| Search across [multiple libraries](../organize-content/multiple-libraries.md) | | ✅ |
+| Search across [multiple libraries](../libraries/how-libraries-work.md) | | ✅ |
 | **Organizing** | | |
 | Customize collections | ✅ | ✅ |
 | Downloads and recently read | ✅ | ✅ |
-| Lock content with a password or Face ID | | ✅ |
+| [Lock content](../libraries/locking-content.md) with a password or Face ID | | ✅ |
 | Favorite library locations | | ✅ |
 | Recently imported | | ✅ |
 | Used space management | | ✅ |
@@ -76,7 +78,7 @@ Some features, such as the web server and page curl, are only available on iPhon
 
 ## Getting Premium
 
-In Panels, open **Settings** and tap the **Panels Premium** section to see the available plans. You'll also see the plans when you try to use a Premium feature.
+In Panels, open **Settings** and tap the **My Purchases** section to see the available plans. You'll also see the plans when you try to use a Premium feature.
 
 All payments are handled by Apple through the App Store. To manage or cancel a Panels+ subscription, follow [Apple's guide](https://support.apple.com/en-us/118428).
 
@@ -84,4 +86,4 @@ All payments are handled by Apple through the App Store. To manage or cancel a P
 
 - [Restoring purchases](./restoring-purchases.md) on a new device or after reinstalling Panels
 - [Family Sharing](./family-sharing.md): share Premium with your family
-- [Premium FAQs](./premium-faqs.md)
+- [FAQs](/faqs.md#panels-premium)

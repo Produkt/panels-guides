@@ -1,10 +1,11 @@
 ---
-sidebar_position: 4
+sidebar_position: 5
+description: Connect Panels to Calibre's content server over OPDS, including how to start the server, enable authentication, and reach it from outside your network.
 ---
 
 # Calibre
 
-This guide will walk you through the process of connecting Panels to your [Calibre](https://calibre-ebook.com/) instance.
+This guide covers what's specific to connecting Panels to a [Calibre](https://calibre-ebook.com/) instance. For the parts common to every server — where the OPDS option lives, and how to use the server once it's added — see [connecting a server](connecting-a-server.md).
 
 :::info[Premium feature]
 
@@ -12,66 +13,60 @@ Connecting to OPDS servers like Calibre is part of [Panels Premium](/premium/wha
 
 :::
 
-## 📝 Step-by-Step Guide
+## Setting up Calibre
 
-### 1. **Open Calibre**
-Launch the Calibre desktop application.
+### 1. Start the content server
 
-### 2. **Start the Content Server**
+Launch the Calibre desktop app, click **Connect/share** in the top toolbar, and choose **Start Content Server**.
 
-- Click the **"Connect/share"** button on the top toolbar.
-- Choose **"Start Content Server"**.
+Calibre then runs a web server locally, usually at `http://127.0.0.1:8080`. For devices on the same network, use your machine's local IP instead, for example `http://192.168.1.137:8080`.
 
-Once started, Calibre runs a web server locally, usually at:  
-`http://127.0.0.1:8080` / `http://localhost:8080`
+<img src ="/img/calibre-setup/01.png" style={{maxHeight: '500px'}} alt="Calibre Connect/share menu with Start Content Server"/>
 
-You can also access it via your local IP (e.g., `http://192.168.1.137:8080`) for devices on the same network.
+### 2. Check the OPDS feed
 
-<img src ="/img/calibre-setup/01.png" style={{maxHeight: '500px'}}/>
+The OPDS feed is enabled automatically whenever the content server is running, at:
 
-### 3. **Enable OPDS**
+```
+http://<your-ip>:8080/opds
+```
 
-The OPDS feed is automatically enabled when the content server is running.
+For example: `http://192.168.1.137:8080/opds`
 
-- To access the OPDS catalog:  
-  `http://<your-ip>:8080/opds`
+Open that in a browser to confirm it's working — you should see something like this:
 
-**Example:**  
-`http://192.168.1.137:8080/opds`
+<img src ="/img/calibre-setup/03.png" style={{maxHeight: '500px'}} alt="Calibre OPDS feed shown in a web browser"/>
 
-If you opend that URL on your web browser, you should see something like this: 
+### 3. Set a username and password
 
-<img src ="/img/calibre-setup/03.png" style={{maxHeight: '500px'}}/>
+Recommended in general, and essential if you ever expose the server beyond your local network.
 
-### 4. **Set a Username and Password (Recommended)**
+Go to **Preferences → Sharing over the net**, check **Require username and password**, and set your credentials.
 
-For security, especially if exposing the server over the internet:
+## Connection details
 
-- Go to **Preferences > Sharing over the net**
-- Check **"Require username and password"**
-- Set your credentials
+In Panels, go to **Library → Connect Service → OPDS** and enter your server details and credentials.
 
----
+<img src ="/img/calibre-setup/02.png" style={{maxHeight: '500px'}} alt="Panels OPDS configuration screen for Calibre"/>
 
-## 📱 Accessing OPDS from Panels
+## Reaching Calibre from outside your network
 
-Add a new OPDS server and add your server details and credentials (if set)
-
-<img src ="/img/calibre-setup/02.png" style={{maxHeight: '500px'}}/>
-
-
----
-
-## 🔐 Exposing to the Internet (Optional)
-
-If you want to access your Calibre OPDS server outside your local network:
+To access your Calibre server away from home you'll need to:
 
 - Set up **port forwarding** on your router (forward port 8080)
 - Use **dynamic DNS** or a static IP
-- Ensure you’ve set up **authentication**
+- Make sure **authentication** is enabled
 
-⚠️ *Be cautious when exposing your Calibre server to the internet—use strong passwords and consider additional security layers like a VPN or reverse proxy with HTTPS.*
+:::warning
 
-ℹ️ Check this guide for more information on [how to expose your server using HTTPS](/opds/https).
+Be cautious about exposing Calibre directly to the internet. Use strong passwords, and prefer a VPN or a reverse proxy with HTTPS over opening a port.
 
----
+:::
+
+→ [Expose your server (HTTPS with Caddy)](https.md)
+
+## Next steps
+
+Your Calibre server now appears both as a library and as an import service.
+
+→ [Using your server](connecting-a-server.md#using-it-as-a-library)
