@@ -1,3 +1,8 @@
+---
+sidebar_position: 7
+description: Improve how comics look in Panels with filters, transformations and shaders — reduce noise, sharpen, remove borders and fix moire patterns.
+---
+
 # Image filters
 
 :::info[Premium feature]

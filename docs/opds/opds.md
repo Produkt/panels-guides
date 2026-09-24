@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+description: What OPDS is, why you'd host your own comic server, and which servers work well with Panels — Kavita, Komga, Stump and Codex.
 ---
 
 # What is OPDS
@@ -10,13 +11,33 @@ Connecting to OPDS servers is part of [Panels Premium](/premium/what-is-panels-p
 
 :::
 
-[OPDS](https://opds.io) is a standard for content distribution. Most popular comic servers have adopted OPDS to allow third-party apps to access their content. 
+[OPDS](https://opds.io) is a standard for content distribution. Most popular comic servers have adopted it so that third-party apps like Panels can reach their content.
 
-If you have a large comic collection or you just don't want your files to take out too much space in your device, you can choose to [have your content stored on iCloud Drive](/import-content/icloud-drive.md) or have it stored in your own server.
+## Why use your own server
 
-Panels can connect to the server using the OPDS standard. There are multiple server implementations compatible with OPDS. 
-For comics in particular, we do recommend using [Kavita](https://www.kavitareader.com/), [Komga](https://komga.org/), [Stump](https://www.stumpapp.dev/) or [Codex](https://github.com/ajslater/codex).
+If you have a large collection, or you just don't want your files taking up space on your device, you have two options: [keep your content in iCloud Drive](/libraries/icloud-drive.md), or keep it on a server you run yourself.
 
-Each one of those servers offers great documentation and communities around them, so we strongly suggest you visit them to set your server up.
+With a server, Panels can:
 
-You can also check out our guides for some of the most popular comic servers.
+- **Browse your whole collection** as a library, without downloading it
+- **Stream comics** straight from the server
+- **Download** individual titles for offline reading
+
+## Which server to use
+
+There are many OPDS implementations. For comics in particular we recommend:
+
+- [Kavita](https://www.kavitareader.com/)
+- [Komga](https://komga.org/)
+- [Stump](https://www.stumpapp.dev/)
+- [Codex](https://github.com/ajslater/codex)
+
+Each has great documentation and an active community, so we suggest starting there to get your server running.
+
+## Connecting it to Panels
+
+Once your server is up, adding it to Panels works the same way regardless of which one you chose.
+
+→ [Connecting a server](connecting-a-server.md)
+
+We also have server-specific guides for [Komga](komga.md), [Kavita](kavita.md) and [Calibre](calibre.md), and one on [exposing your server over HTTPS](https.md) if you want to reach it from outside your home.

@@ -156,7 +156,37 @@ const config = {
       '@docusaurus/plugin-client-redirects',
       {
         redirects: [
-          { from: '/FAQs/premium-faqs', to: '/premium/premium-faqs' },
+          // Miscellaneous section dissolved into Libraries, Reading and Help
+          { from: '/misc/moving-to-new-device', to: '/libraries/moving-to-new-device' },
+          { from: '/misc/icloud-files-help', to: '/libraries/icloud-drive' },
+          { from: '/misc/sync-reading-sessions', to: '/read-content/reading-sessions' },
+          { from: '/misc/change-app-language', to: '/help/change-app-language' },
+          { from: '/misc/sending-app-diagnostics', to: '/help/sending-app-diagnostics' },
+          { from: '/misc/where-to-purchase', to: '/where-to-purchase' },
+          { from: '/category/miscellaneous', to: '/category/help' },
+
+          // FAQs consolidated into a single page
+          { from: '/FAQs/general-faqs', to: '/faqs' },
+          { from: '/FAQs/readers-faqs', to: '/faqs' },
+          { from: '/FAQs/library-faqs', to: '/faqs' },
+          { from: '/FAQs/premium-faqs', to: '/faqs' },
+          { from: '/premium/premium-faqs', to: '/faqs' },
+          { from: '/category/faqs', to: '/faqs' },
+
+          // Google Drive retirement moved out of FAQs, into Importing content
+          {
+            from: '/FAQs/google-drive-integration-retirement',
+            to: '/import-content/google-drive',
+          },
+
+          // Importing pages renamed
+          { from: '/import-content/files-app', to: '/import-content/from-your-device' },
+          { from: '/import-content/import-services', to: '/import-content/cloud-services' },
+
+          // Library pages gathered into their own section
+          { from: '/import-content/icloud-drive', to: '/libraries/icloud-drive' },
+          { from: '/organize-content/multiple-libraries', to: '/libraries/how-libraries-work' },
+          { from: '/category/organizing-content', to: '/category/libraries' },
         ],
       },
     ],
