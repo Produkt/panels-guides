@@ -1,8 +1,9 @@
 ---
-sidebar_position: 3
+sidebar_position: 2
+description: How to find and send us the .ips crash log files that help us track down bugs we cannot reproduce.
 ---
 
-# Sending App Diagnostics
+# Sending app diagnostics
 
 Some bugs require additional information that we can't access remotely. In those cases, we'd like you to send us App Diagnostics. 
 Here are some steps to extract the `.ips` files containing the crash logs from the app. 

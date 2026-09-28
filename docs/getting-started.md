@@ -3,6 +3,7 @@ slug: /
 sidebar_position: 1
 hide_table_of_contents: true
 sidebar_label: Getting started
+description: Start here. Panels is a DRM-free comic reader for iPhone, iPad and Mac — import your comics, organize them into libraries, and read them your way.
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
@@ -13,30 +14,39 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Getting started
 
-Panels is a DRM-free comic reader with many features to organize your library and improve your comic reading experience.
+Panels is a DRM-free comic reader with a powerful library and a reader you can tune to your taste. It's free to download, and [Panels Premium](/premium/what-is-panels-premium.md) unlocks the advanced features.
 
-The first thing you need to get started using Panels is content to read.
+The first thing you need is something to read.
 
-## Importing content into Panels
+## 1. Get some comics
 
-There are several ways to import your content into Panels and to keep it shared and synced across devices.
+Panels reads the comics you already own — it never locks them to the app. If you're starting from scratch, see [where to buy digital comics](/where-to-purchase.md), including free and public domain sources.
 
-You can head to [Importing content](/category/importing-content) to learn more.
+Check [supported files](/import-content/supported-files.md) to make sure your files will open.
 
-## Syncing and organizing your content
+## 2. Bring them into Panels
 
-Once your content is inside Panels, we offer tools to organize it and customize how the library looks.
+| If your comics are… | Read this |
+| --- | --- |
+| On your Mac, or already on your device | [Importing from your device](/import-content/from-your-device.md) |
+| In Dropbox, OneDrive, or on a network share | [Importing from cloud services](/import-content/cloud-services.md) |
+| On your own comic server | [OPDS: your own server](/category/opds-your-own-server) |
 
-Find more information in [Organize content](/category/organizing-content).
+## 3. Organize your libraries
 
-## Read your content
+A Panels library is just a folder. You can have several of them, keep one synced across devices with [iCloud Drive](/libraries/icloud-drive.md), or [lock private content](/libraries/locking-content.md) behind a password.
 
-In addition to a powerful library, Panels offers an incredible reader with multiple features, from text selection to automatic background color. Visit [Reading content](/category/reading-content) to know more.
+Start with [how libraries work](/libraries/how-libraries-work.md).
 
-## Panels Premium
+## 4. Make the reader yours
 
-Panels is free to use, and Panels Premium unlocks advanced features like cloud libraries, OPDS servers, and page filters. Visit [Panels Premium](/category/panels-premium) to see what's included and how purchases work.
+Panels' reader has a lot of settings, and [presets](/read-content/reader-configurations.md) let you switch between them in a tap — one for manga, one with page curl for everything else.
 
-## Purchasing content
+From there, explore [Panels View](/read-content/panels-view.md) for panel-by-panel navigation, [Live Text](/read-content/live-text.md) for selecting and translating text, and [page filters](/read-content/image-filters.md) for cleaning up old scans.
 
-Panels do not provide any content, all content should be purchased elsewhere. Visit [where to purchase comics](/misc/where-to-purchase.md) for suggestions.
+Your progress follows you between devices through [reading sessions](/read-content/reading-sessions.md).
+
+## Need a hand?
+
+- [FAQs](/faqs.md) — short answers to the questions we get most
+- [Help](/category/help) — app settings, diagnostics, and how to reach us

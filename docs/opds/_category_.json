@@ -1,8 +1,9 @@
 {
   "label": "OPDS: Your own server",
-  "position": 7,
+  "position": 4,
   "link": {
-      "type": "generated-index",
-      "description": "Here you will find guides to connect Panels to your OPDS server"
-    }
+    "type": "generated-index",
+    "slug": "/category/opds-your-own-server",
+    "description": "Stream and download your collection from your own server. Start with What is OPDS, then follow the guide for your server."
+  }
 }

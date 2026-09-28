@@ -1,8 +1,9 @@
 ---
 sidebar_position: 5
+description: Enable Panels View to navigate comics panel by panel, using machine learning to detect and zoom into individual panels.
 ---
 
-# Enabling Panels View
+# Panels View
 
 :::info[Premium feature]
 
@@ -32,4 +33,4 @@ For iPad, Panels settings are located on your avatar:
 
 Once enabled, you will see a new option while reading that allows you to toggle panel-by-panel navigation on or off.
 
-<img src="/img/panels-view.jpeg" alt="iPhone showing list of presets" style={{width: 400}} />
+<img src="/img/panels-view.jpeg" alt="Reader showing the toggle for panel-by-panel navigation" style={{width: 400}} />

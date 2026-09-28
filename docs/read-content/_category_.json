@@ -1,7 +1,9 @@
 {
   "label": "Reading content",
-  "position": 4,
+  "position": 5,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "slug": "/category/reading-content",
+    "description": "Set up the reader the way you like it, and get the most out of features like Panels View, Live Text and page filters."
   }
 }

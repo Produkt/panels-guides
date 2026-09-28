@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
+description: Change the language Panels uses on iOS, iPadOS and macOS, including what to do when no language option appears.
 ---
 
-# Changing app languange
+# Changing the app language
 
 We currently support 11 languages. Only English, Spanish and German are human translations though. The following 8 languages have been translated using AI:
 

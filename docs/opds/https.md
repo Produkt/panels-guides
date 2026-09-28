@@ -1,5 +1,6 @@
 ---
-sidebar_position: 5
+sidebar_position: 6
+description: Secure your OPDS server with HTTPS using Caddy or Tailscale, and learn which values go in the Server address and Port fields when Panels connects through a reverse proxy.
 ---
 
 # Expose your server (HTTPS with Caddy)

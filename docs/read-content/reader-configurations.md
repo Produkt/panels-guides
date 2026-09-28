@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+description: Configure the Panels reader — page transition, scroll direction, page fitting and dynamic background — and save your setups as presets.
 ---
 
 # Reader presets and configurations
@@ -26,7 +27,7 @@ The Fill screen, Adjust to orientation, and Page curl reading modes are part of 
 
 You can edit, rename and delete any of those configurations. Just go to reader settings -> Presets.
 
-<img src="/img/reader-default-configurations.png" alt="iPhone showing list of presets" style={{width: 400}} />
+<img src="/img/reader-default-configurations.png" alt="Panels reader settings showing the five default presets" style={{width: 400}} />
 
 :::tip
 
@@ -67,5 +68,5 @@ We offer the following options to configure the reader:
     - Immersive: Panels will calculate different prominent colors and will fade between them, creating an immersive experience
 
 Examples of immersive dynamic color using Invincible vol. 1
-<img src="/img/reader-immersive-1.png" alt="iPhone showing list of presets" style={{width: 400}} />
-<img src="/img/reader-immersive-2.png" alt="iPhone showing list of presets" style={{width: 400}} />
+<img src="/img/reader-immersive-1.png" alt="Reader using immersive dynamic background color" style={{width: 400}} />
+<img src="/img/reader-immersive-2.png" alt="Reader using immersive dynamic background color on another page" style={{width: 400}} />
